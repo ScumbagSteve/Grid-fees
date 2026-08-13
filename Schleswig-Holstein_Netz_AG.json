@@ -1,12 +1,14 @@
 {
   "grid_operator": "Schleswig-Holstein Netz AG",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.sh-netz.com/content/dam/revu-global/sh-netz/Documents/Schleswig-Holstein-Netz/Netzentgelte/Strom/Allgemeine-Netzentgelte/2026/finale_netzentgelte_strom_ab_20260101.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 6.4
+        "value": 6.4
       },
       "periods": [
         {
@@ -17,25 +19,25 @@
               "time_from": "00:00",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 0.64
+              "value": 0.64
             },
             {
               "time_from": "09:00",
               "time_to": "14:00",
               "tariff": "HT",
-              "charge_per_kwh": 8.32
+              "value": 8.32
             },
             {
               "time_from": "17:00",
               "time_to": "21:00",
               "tariff": "HT",
-              "charge_per_kwh": 8.32
+              "value": 8.32
             },
             {
               "time_from": "22:00",
               "time_to": "24:00",
               "tariff": "NT",
-              "charge_per_kwh": 0.64
+              "value": 0.64
             }
           ]
         },
@@ -47,25 +49,25 @@
               "time_from": "00:00",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 0.64
+              "value": 0.64
             },
             {
               "time_from": "09:00",
               "time_to": "14:00",
               "tariff": "HT",
-              "charge_per_kwh": 8.32
+              "value": 8.32
             },
             {
               "time_from": "17:00",
               "time_to": "21:00",
               "tariff": "HT",
-              "charge_per_kwh": 8.32
+              "value": 8.32
             },
             {
               "time_from": "22:00",
               "time_to": "24:00",
               "tariff": "NT",
-              "charge_per_kwh": 0.64
+              "value": 0.64
             }
           ]
         }

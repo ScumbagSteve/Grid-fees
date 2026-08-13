@@ -1,12 +1,14 @@
 {
   "grid_operator": "WEMAG Netz GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.wemag-netz.de/sites/default/files/2025-12/251208_wemag-netz-gmbh-preisblatt-netzentgelte-2026.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 5.13
+        "value": 5.13
       },
       "periods": [
         {
@@ -17,25 +19,25 @@
               "time_from": "00:00",
               "time_to": "06:00",
               "tariff": "NT",
-              "charge_per_kwh": 1.95
+              "value": 1.95
             },
             {
               "time_from": "07:00",
               "time_to": "11:00",
               "tariff": "HT",
-              "charge_per_kwh": 7.7
+              "value": 7.7
             },
             {
               "time_from": "17:00",
               "time_to": "20:00",
               "tariff": "HT",
-              "charge_per_kwh": 7.7
+              "value": 7.7
             },
             {
               "time_from": "21:00",
               "time_to": "24:00",
               "tariff": "NT",
-              "charge_per_kwh": 1.95
+              "value": 1.95
             }
           ]
         },
@@ -47,25 +49,25 @@
               "time_from": "00:00",
               "time_to": "06:00",
               "tariff": "NT",
-              "charge_per_kwh": 1.95
+              "value": 1.95
             },
             {
               "time_from": "07:00",
               "time_to": "11:00",
               "tariff": "HT",
-              "charge_per_kwh": 7.7
+              "value": 7.7
             },
             {
               "time_from": "17:00",
               "time_to": "20:00",
               "tariff": "HT",
-              "charge_per_kwh": 7.7
+              "value": 7.7
             },
             {
               "time_from": "21:00",
               "time_to": "24:00",
               "tariff": "NT",
-              "charge_per_kwh": 1.95
+              "value": 1.95
             }
           ]
         }

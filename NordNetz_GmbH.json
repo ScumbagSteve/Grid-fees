@@ -1,12 +1,14 @@
 {
   "grid_operator": "NordNetz GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.nordnetz.com/content/dam/revu-global/nordnetz/Dokumente/NordNetz/Netzinformationen/netzentgelte_strom/2026/nordnetz_finale_netzentgelte_strom_ab_20260101.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 5.21
+        "value": 5.21
       },
       "periods": []
     }

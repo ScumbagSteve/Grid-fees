@@ -1,12 +1,14 @@
 {
   "grid_operator": "Energienetze Offenbach GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.energienetze-offenbach.de/fileadmin/user_upload_eno/Dokumente/Strom/Netzzugang/Netzentgelte_Strom/251219_ENO_finale_Preisblaetter_Strom_2026_Of_ohneUmlagen.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 5.87
+        "value": 5.87
       },
       "periods": [
         {
@@ -17,13 +19,13 @@
               "time_from": "02:00",
               "time_to": "06:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.35
+              "value": 2.35
             },
             {
               "time_from": "17:00",
               "time_to": "20:00",
               "tariff": "HT",
-              "charge_per_kwh": 8.1
+              "value": 8.1
             }
           ]
         },
@@ -35,13 +37,13 @@
               "time_from": "02:00",
               "time_to": "06:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.35
+              "value": 2.35
             },
             {
               "time_from": "17:00",
               "time_to": "20:00",
               "tariff": "HT",
-              "charge_per_kwh": 8.1
+              "value": 8.1
             }
           ]
         }

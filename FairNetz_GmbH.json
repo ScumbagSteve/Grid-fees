@@ -1,12 +1,14 @@
 {
   "grid_operator": "FairNetz GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.fairnetzgmbh.de/Downloads/PDF/Strom/Preise-Preisbl%C3%A4tter/2026/Preisblatt%20Strom%20NN_01.2026.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 8.16
+        "value": 8.16
       },
       "periods": [
         {
@@ -17,19 +19,19 @@
               "time_from": "00:00",
               "time_to": "04:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.04
+              "value": 2.04
             },
             {
               "time_from": "10:00",
               "time_to": "14:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.04
+              "value": 2.04
             },
             {
               "time_from": "17:00",
               "time_to": "22:00",
               "tariff": "HT",
-              "charge_per_kwh": 11.87
+              "value": 11.87
             }
           ]
         }

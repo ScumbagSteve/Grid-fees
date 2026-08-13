@@ -1,12 +1,14 @@
 {
   "grid_operator": "Stadtwerke Husum Netz GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.husumnetz.de/wp-content/uploads/2025/12/2026_01_01_HusumNetz_Preisblaetter_Netzentgelte-Strom.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 6.15
+        "value": 6.15
       },
       "periods": [
         {
@@ -17,13 +19,13 @@
               "time_from": "01:00",
               "time_to": "07:00",
               "tariff": "NT",
-              "charge_per_kwh": 1.23
+              "value": 1.23
             },
             {
               "time_from": "16:00",
               "time_to": "19:00",
               "tariff": "HT",
-              "charge_per_kwh": 10.12
+              "value": 10.12
             }
           ]
         }

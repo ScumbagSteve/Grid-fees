@@ -1,12 +1,14 @@
 {
   "grid_operator": "Netze Duisburg GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.netze-duisburg.de/fileadmin/user_upload/Netz_nutzen/Netzentgelte/Strom/251215_Netze_Duisburg_-_Preisblatt_Strom_2026_Final.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 6.94
+        "value": 6.94
       },
       "periods": [
         {
@@ -17,13 +19,13 @@
               "time_from": "00:00",
               "time_to": "06:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.09
+              "value": 2.09
             },
             {
               "time_from": "14:15",
               "time_to": "18:45",
               "tariff": "HT",
-              "charge_per_kwh": 9.77
+              "value": 9.77
             }
           ]
         },
@@ -35,13 +37,13 @@
               "time_from": "00:00",
               "time_to": "06:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.09
+              "value": 2.09
             },
             {
               "time_from": "14:15",
               "time_to": "18:45",
               "tariff": "HT",
-              "charge_per_kwh": 9.77
+              "value": 9.77
             }
           ]
         }

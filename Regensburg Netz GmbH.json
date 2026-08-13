@@ -1,12 +1,14 @@
 {
   "grid_operator": "Regensburg Netz GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.regensburg-netz.de/fileadmin/Downloads/Fuer_Partner/Netzkunden_Lieferanten/Netzentgelte_Umlagen/2026/Preisblaetter_Gesamt_endgueltig_2026.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 5.05
+        "value": 5.05
       },
       "periods": [
         {
@@ -17,13 +19,13 @@
               "time_from": "02:15",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.02
+              "value": 2.02
             },
             {
               "time_from": "09:00",
               "time_to": "20:30",
               "tariff": "HT",
-              "charge_per_kwh": 5.31
+              "value": 5.31
             }
           ]
         },
@@ -35,13 +37,13 @@
               "time_from": "02:15",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.02
+              "value": 2.02
             },
             {
               "time_from": "09:00",
               "time_to": "20:30",
               "tariff": "HT",
-              "charge_per_kwh": 5.31
+              "value": 5.31
             }
           ]
         }

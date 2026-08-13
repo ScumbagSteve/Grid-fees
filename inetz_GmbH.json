@@ -1,12 +1,14 @@
 {
   "grid_operator": "inetz GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.inetz.de/fileadmin/dokumente/02_Netzzugang/01_Netzentgelte/Strom/20251014_S_Preisblatt____14a_EnWG_v_2026.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 5.99
+        "value": 5.99
       },
       "periods": [
         {
@@ -17,13 +19,13 @@
               "time_from": "01:30",
               "time_to": "04:15",
               "tariff": "NT",
-              "charge_per_kwh": 2.4
+              "value": 2.4
             },
             {
               "time_from": "17:00",
               "time_to": "19:00",
               "tariff": "HT",
-              "charge_per_kwh": 7.56
+              "value": 7.56
             }
           ]
         },
@@ -35,13 +37,13 @@
               "time_from": "01:30",
               "time_to": "04:15",
               "tariff": "NT",
-              "charge_per_kwh": 2.4
+              "value": 2.4
             },
             {
               "time_from": "17:00",
               "time_to": "19:00",
               "tariff": "HT",
-              "charge_per_kwh": 7.56
+              "value": 7.56
             }
           ]
         }

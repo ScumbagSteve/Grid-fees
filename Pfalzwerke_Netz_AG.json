@@ -1,12 +1,14 @@
 {
   "grid_operator": "Pfalzwerke Netz AG",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.pfalzwerke-netz.de/pfalzwerke-netz/downloads/unser-netz/Netzentgelte/2026/20251211_Preisblatt_Pfalzwerke%20Netz%20AG_NN_2026.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 6.3
+        "value": 6.3
       },
       "periods": [
         {
@@ -17,19 +19,19 @@
               "time_from": "01:00",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.52
+              "value": 2.52
             },
             {
               "time_from": "11:00",
               "time_to": "13:30",
               "tariff": "HT",
-              "charge_per_kwh": 7.07
+              "value": 7.07
             },
             {
               "time_from": "18:00",
               "time_to": "21:00",
               "tariff": "HT",
-              "charge_per_kwh": 7.07
+              "value": 7.07
             }
           ]
         }

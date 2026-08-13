@@ -1,12 +1,14 @@
 {
   "grid_operator": "swa Netze GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.swa-netze.de/fileadmin/Downloadfiles/Strom/02_Netzzugang_und_Entgelte/04_Preisblaetter/Preisblatt_2026.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 6.07
+        "value": 6.07
       },
       "periods": [
         {
@@ -17,13 +19,13 @@
               "time_from": "01:30",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.43
+              "value": 2.43
             },
             {
               "time_from": "17:00",
               "time_to": "19:00",
               "tariff": "HT",
-              "charge_per_kwh": 9.4
+              "value": 9.4
             }
           ]
         },
@@ -35,13 +37,13 @@
               "time_from": "01:30",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.43
+              "value": 2.43
             },
             {
               "time_from": "17:00",
               "time_to": "19:00",
               "tariff": "HT",
-              "charge_per_kwh": 9.4
+              "value": 9.4
             }
           ]
         }

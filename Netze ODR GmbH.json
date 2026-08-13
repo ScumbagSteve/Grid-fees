@@ -1,12 +1,14 @@
 {
   "grid_operator": "Netze ODR GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.netze-odr.de/fileadmin/Netze-ODR/Dokumente/Partner/Strom-_und_Gaslieferanten/Anlage_1_Preisblatt_Strom.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 5.87
+        "value": 5.87
       },
       "periods": [
         {
@@ -17,19 +19,19 @@
               "time_from": "11:00",
               "time_to": "17:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.35
+              "value": 2.35
             },
             {
               "time_from": "00:00",
               "time_to": "05:00",
               "tariff": "HT",
-              "charge_per_kwh": 10.18
+              "value": 10.18
             },
             {
               "time_from": "22:00",
               "time_to": "24:00",
               "tariff": "HT",
-              "charge_per_kwh": 10.18
+              "value": 10.18
             }
           ]
         }

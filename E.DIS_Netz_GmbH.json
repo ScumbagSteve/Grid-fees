@@ -1,12 +1,14 @@
 {
   "grid_operator": "E.DIS Netz GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/Preisblaetter_Netzentgelte_Strom_20260101.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 5.47
+        "value": 5.47
       },
       "periods": [
         {
@@ -17,25 +19,25 @@
               "time_from": "00:00",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 0.55
+              "value": 0.55
             },
             {
               "time_from": "10:15",
               "time_to": "12:00",
               "tariff": "HT",
-              "charge_per_kwh": 8.8
+              "value": 8.8
             },
             {
               "time_from": "16:45",
               "time_to": "20:15",
               "tariff": "HT",
-              "charge_per_kwh": 8.8
+              "value": 8.8
             },
             {
               "time_from": "23:30",
               "time_to": "24:00",
               "tariff": "NT",
-              "charge_per_kwh": 0.55
+              "value": 0.55
             }
           ]
         },
@@ -47,25 +49,25 @@
               "time_from": "00:00",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 0.55
+              "value": 0.55
             },
             {
               "time_from": "10:15",
               "time_to": "12:00",
               "tariff": "HT",
-              "charge_per_kwh": 8.8
+              "value": 8.8
             },
             {
               "time_from": "16:45",
               "time_to": "20:15",
               "tariff": "HT",
-              "charge_per_kwh": 8.8
+              "value": 8.8
             },
             {
               "time_from": "23:30",
               "time_to": "24:00",
               "tariff": "NT",
-              "charge_per_kwh": 0.55
+              "value": 0.55
             }
           ]
         }

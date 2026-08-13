@@ -1,12 +1,14 @@
 {
   "grid_operator": "badenovaNETZE GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://badenovanetze.de/downloads/ueber-badenovanetze/veroeffentlichungen/strom/netzentgelte/badenovanetze-strom-2026-preisblatt-vorlaeufig.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 7.29
+        "value": 7.29
       },
       "periods": [
         {
@@ -17,19 +19,19 @@
               "time_from": "22:30",
               "time_to": "24:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.51
+              "value": 2.51
             },
             {
               "time_from": "00:00",
               "time_to": "07:30",
               "tariff": "NT",
-              "charge_per_kwh": 2.51
+              "value": 2.51
             },
             {
               "time_from": "08:00",
               "time_to": "21:00",
               "tariff": "HT",
-              "charge_per_kwh": 8.75
+              "value": 8.75
             }
           ]
         },
@@ -41,19 +43,19 @@
               "time_from": "22:30",
               "time_to": "24:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.51
+              "value": 2.51
             },
             {
               "time_from": "00:00",
               "time_to": "07:30",
               "tariff": "NT",
-              "charge_per_kwh": 2.51
+              "value": 2.51
             },
             {
               "time_from": "08:00",
               "time_to": "21:00",
               "tariff": "HT",
-              "charge_per_kwh": 8.75
+              "value": 8.75
             }
           ]
         }

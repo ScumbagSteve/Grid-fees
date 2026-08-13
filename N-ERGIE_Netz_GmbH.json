@@ -1,12 +1,14 @@
 {
   "grid_operator": "N-ERGIE Netz GmbH",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
   "years": {
     "2026": {
       "source": "https://www.n-ergie-netz.de/public/remotemedien/media/nng/produkte_und_dienstleistungen_2/netzentgelte_1/netzentgelte_strom/ne_strom_2026_end/N_Preisblatt6a_steuerbare_Verbrauchseinrichtung_ab2024_end_Neu.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 5.96
+        "value": 5.96
       },
       "periods": [
         {
@@ -17,25 +19,25 @@
               "time_from": "18:00",
               "time_to": "21:00",
               "tariff": "HT",
-              "charge_per_kwh": 11.77
+              "value": 11.77
             },
             {
               "time_from": "23:00",
               "time_to": "24:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.38
+              "value": 2.38
             },
             {
               "time_from": "00:00",
               "time_to": "06:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.38
+              "value": 2.38
             },
             {
               "time_from": "12:00",
               "time_to": "14:15",
               "tariff": "NT",
-              "charge_per_kwh": 2.38
+              "value": 2.38
             }
           ]
         }
