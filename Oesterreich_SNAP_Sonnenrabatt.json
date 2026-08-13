@@ -1,0 +1,29 @@
+{
+  "grid_operator": "Österreich (alle Netzbetreiber, Netzebene 7)",
+  "currency": "EUR",
+  "tariff_type": "Arbeitspreis-Rabatt",
+  "value_unit": "%",
+  "years": {
+    "2026": {
+      "source": "https://www.e-control.at/sommer-nieder-arbeitspreis",
+      "fallback": {
+        "tariff": "ST",
+        "value": 0
+      },
+      "periods": [
+        {
+          "date_from": "01.04.",
+          "date_to": "30.09.",
+          "times": [
+            {
+              "time_from": "10:00",
+              "time_to": "16:00",
+              "tariff": "NT",
+              "value": -20
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
