@@ -38,9 +38,23 @@ Erweitere jede Datei um das kommende Kalenderjahr (z. B. 2027), ohne bestehende 
   }
 }
 
+### Recherche-Pflicht (verbindlich)
+
+Für jeden Netzbetreiber systematisch suchen:
+1. Offizielle Website → Bereich Netzentgelte / Preisblätter / Veröffentlichungen
+2. Websuche: "[Netzbetreiber] Preisblatt Netzentgelte [Jahr] Modul 3" bzw. "§14a"
+3. PDF öffnen und prüfen, ob Modul 3 (zeitvariable Netzentgelte NT/ST/HT) ausgewiesen ist
+
+Hilfsseiten (14a-atlas.de u. a.) dürfen zur Orientierung genutzt werden;
+verbindlich ist immer das Original-Preisblatt-PDF. Die source-URL muss darauf zeigen.
+
+Nur wenn nach dieser Recherche kein Modul-3-Preisblatt gefunden wird oder
+Zeitfenster/Preise nicht eindeutig sind → years für dieses Jahr leer lassen.
+Vorläufige Preisblätter sind zulässig (in source kennzeichnen bzw. URL des vorläufigen Blatts verwenden).
+
 ### Regeln (zwingend einhalten)
 
-1. Nur validierte, öffentlich zugängliche Preisblatt-PDFs als Quelle verwenden. Keine erfundenen oder geschätzten Werte.
+1. Nur validierte, öffentlich zugängliche Preisblatt-PDFs aus vorheriger Recherche als Quelle verwenden. Keine erfundenen oder geschätzten Werte.
 2. Wenn für das Jahr noch kein Preisblatt verfügbar ist, lasse das Jahr in der Datei komplett weg. Keine Jahre ohne Einträge anlegen - auch nicht nur mit "Fallback". Jedes Jahr benötigt NT und HT Zeiträume. Im Zweifel lieber leer lassen.
 3. `fallback` ist immer der Standardtarif (ST). Er gilt für alle Zeitpunkte, die von keinem Eintrag in `periods` getroffen werden (z. B. Q2/Q3 oder Restzeiten innerhalb eines Datumsbereichs).
 4. In `periods` nur Abweichungen vom Fallback ablegen – also ausschließlich HT- und NT-Fenster. Niemals ST in `times` eintragen.
