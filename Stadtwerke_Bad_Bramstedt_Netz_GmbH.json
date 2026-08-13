@@ -1,40 +1,37 @@
 {
-  "netzbetreiber": "Stadtwerke Bad Bramstedt Netz GmbH",
-  "jahre": {
+  "grid_operator": "Stadtwerke Bad Bramstedt Netz GmbH",
+  "currency": "EUR",
+  "years": {
     "2026": {
-      "quelle": "https://badbramstedtnetz.netzveroeffentlichung.com/fileadmin/Stadtwerke_Bad_Bramstedt_Netz/Stromnetz/Netzzugang_und_Entgelte/Entgelte/00_SWBBn_NNE_e_SN_26_PB.pdf",
-      "tarifstufen": [
+      "source": "https://badbramstedtnetz.netzveroeffentlichung.com/fileadmin/Stadtwerke_Bad_Bramstedt_Netz/Stromnetz/Netzzugang_und_Entgelte/Entgelte/00_SWBBn_NNE_e_SN_26_PB.pdf",
+      "fallback": {
+        "tariff": "ST",
+        "charge_per_kwh": 6.64
+      },
+      "periods": [
         {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "00:00",
-          "zeit_bis": "07:00",
-          "tarif": "NT",
-          "netzentgelt_ct_kwh_netto": 1.33
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "07:00",
-          "zeit_bis": "18:00",
-          "tarif": "ST",
-          "netzentgelt_ct_kwh_netto": 6.64
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "18:00",
-          "zeit_bis": "22:00",
-          "tarif": "HT",
-          "netzentgelt_ct_kwh_netto": 9.82
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "22:00",
-          "zeit_bis": "24:00",
-          "tarif": "NT",
-          "netzentgelt_ct_kwh_netto": 1.33
+          "date_from": "01.01.",
+          "date_to": "31.12.",
+          "times": [
+            {
+              "time_from": "00:00",
+              "time_to": "07:00",
+              "tariff": "NT",
+              "charge_per_kwh": 1.33
+            },
+            {
+              "time_from": "18:00",
+              "time_to": "22:00",
+              "tariff": "HT",
+              "charge_per_kwh": 9.82
+            },
+            {
+              "time_from": "22:00",
+              "time_to": "24:00",
+              "tariff": "NT",
+              "charge_per_kwh": 1.33
+            }
+          ]
         }
       ]
     }

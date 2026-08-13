@@ -1,56 +1,37 @@
 {
-  "netzbetreiber": "FairNetz GmbH",
-  "jahre": {
+  "grid_operator": "FairNetz GmbH",
+  "currency": "EUR",
+  "years": {
     "2026": {
-      "quelle": "https://www.fairnetzgmbh.de/Downloads/PDF/Strom/Preise-Preisbl%C3%A4tter/2026/Preisblatt%20Strom%20NN_01.2026.pdf",
-      "tarifstufen": [
+      "source": "https://www.fairnetzgmbh.de/Downloads/PDF/Strom/Preise-Preisbl%C3%A4tter/2026/Preisblatt%20Strom%20NN_01.2026.pdf",
+      "fallback": {
+        "tariff": "ST",
+        "charge_per_kwh": 8.16
+      },
+      "periods": [
         {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "00:00",
-          "zeit_bis": "04:00",
-          "tarif": "NT",
-          "netzentgelt_ct_kwh_netto": 2.04
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "04:00",
-          "zeit_bis": "10:00",
-          "tarif": "ST",
-          "netzentgelt_ct_kwh_netto": 8.16
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "10:00",
-          "zeit_bis": "14:00",
-          "tarif": "NT",
-          "netzentgelt_ct_kwh_netto": 2.04
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "14:00",
-          "zeit_bis": "17:00",
-          "tarif": "ST",
-          "netzentgelt_ct_kwh_netto": 8.16
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "17:00",
-          "zeit_bis": "22:00",
-          "tarif": "HT",
-          "netzentgelt_ct_kwh_netto": 11.87
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "22:00",
-          "zeit_bis": "24:00",
-          "tarif": "ST",
-          "netzentgelt_ct_kwh_netto": 8.16
+          "date_from": "01.01.",
+          "date_to": "31.12.",
+          "times": [
+            {
+              "time_from": "00:00",
+              "time_to": "04:00",
+              "tariff": "NT",
+              "charge_per_kwh": 2.04
+            },
+            {
+              "time_from": "10:00",
+              "time_to": "14:00",
+              "tariff": "NT",
+              "charge_per_kwh": 2.04
+            },
+            {
+              "time_from": "17:00",
+              "time_to": "22:00",
+              "tariff": "HT",
+              "charge_per_kwh": 11.87
+            }
+          ]
         }
       ]
     }

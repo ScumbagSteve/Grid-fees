@@ -1,80 +1,49 @@
 {
-  "netzbetreiber": "e-netz Südhessen AG",
-  "jahre": {
+  "grid_operator": "e-netz Südhessen AG",
+  "currency": "EUR",
+  "years": {
     "2026": {
-      "quelle": "https://www.e-netz-suedhessen.de/fileadmin/download/preisblatt_strom.pdf",
-      "tarifstufen": [
+      "source": "https://www.e-netz-suedhessen.de/fileadmin/download/preisblatt_strom.pdf",
+      "fallback": {
+        "tariff": "ST",
+        "charge_per_kwh": 5.63
+      },
+      "periods": [
         {
-          "datum_von": "01.01.",
-          "datum_bis": "31.03.",
-          "zeit_von": "00:00",
-          "zeit_bis": "06:00",
-          "tarif": "NT",
-          "netzentgelt_ct_kwh_netto": 1.53
+          "date_from": "01.01.",
+          "date_to": "31.03.",
+          "times": [
+            {
+              "time_from": "00:00",
+              "time_to": "06:00",
+              "tariff": "NT",
+              "charge_per_kwh": 1.53
+            },
+            {
+              "time_from": "18:00",
+              "time_to": "22:00",
+              "tariff": "HT",
+              "charge_per_kwh": 7.38
+            }
+          ]
         },
         {
-          "datum_von": "01.01.",
-          "datum_bis": "31.03.",
-          "zeit_von": "06:00",
-          "zeit_bis": "18:00",
-          "tarif": "ST",
-          "netzentgelt_ct_kwh_netto": 5.63
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.03.",
-          "zeit_von": "18:00",
-          "zeit_bis": "22:00",
-          "tarif": "HT",
-          "netzentgelt_ct_kwh_netto": 7.38
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.03.",
-          "zeit_von": "22:00",
-          "zeit_bis": "24:00",
-          "tarif": "ST",
-          "netzentgelt_ct_kwh_netto": 5.63
-        },
-        {
-          "datum_von": "01.10.",
-          "datum_bis": "31.12.",
-          "zeit_von": "00:00",
-          "zeit_bis": "06:00",
-          "tarif": "NT",
-          "netzentgelt_ct_kwh_netto": 1.53
-        },
-        {
-          "datum_von": "01.10.",
-          "datum_bis": "31.12.",
-          "zeit_von": "06:00",
-          "zeit_bis": "18:00",
-          "tarif": "ST",
-          "netzentgelt_ct_kwh_netto": 5.63
-        },
-        {
-          "datum_von": "01.10.",
-          "datum_bis": "31.12.",
-          "zeit_von": "18:00",
-          "zeit_bis": "22:00",
-          "tarif": "HT",
-          "netzentgelt_ct_kwh_netto": 7.38
-        },
-        {
-          "datum_von": "01.10.",
-          "datum_bis": "31.12.",
-          "zeit_von": "22:00",
-          "zeit_bis": "24:00",
-          "tarif": "ST",
-          "netzentgelt_ct_kwh_netto": 5.63
-        },
-        {
-          "datum_von": "01.04.",
-          "datum_bis": "30.09.",
-          "zeit_von": "00:00",
-          "zeit_bis": "24:00",
-          "tarif": "ST",
-          "netzentgelt_ct_kwh_netto": 5.63
+          "date_from": "01.10.",
+          "date_to": "31.12.",
+          "times": [
+            {
+              "time_from": "00:00",
+              "time_to": "06:00",
+              "tariff": "NT",
+              "charge_per_kwh": 1.53
+            },
+            {
+              "time_from": "18:00",
+              "time_to": "22:00",
+              "tariff": "HT",
+              "charge_per_kwh": 7.38
+            }
+          ]
         }
       ]
     }
