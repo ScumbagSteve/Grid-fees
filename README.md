@@ -41,7 +41,7 @@ Erweitere jede Datei um das kommende Kalenderjahr (z. B. 2027), ohne bestehende 
 ### Regeln (zwingend einhalten)
 
 1. Nur validierte, öffentlich zugängliche Preisblatt-PDFs als Quelle verwenden. Keine erfundenen oder geschätzten Werte.
-2. Fehlt eine eindeutige Quelle oder sind die Zeitfenster nicht klar, lasse `periods` für dieses Jahr leer und setze nur `source` + `fallback` (falls der ST-Preis bekannt ist). Im Zweifel lieber leer lassen.
+2. Wenn für das Jahr noch kein Preisblatt verfügbar ist, lasse das Jahr in der Datei komplett weg. Keine Jahre ohne Einträge anlegen - auch nicht nur mit "Fallback". Jedes Jahr benötigt NT und HT Zeiträume. Im Zweifel lieber leer lassen.
 3. `fallback` ist immer der Standardtarif (ST). Er gilt für alle Zeitpunkte, die von keinem Eintrag in `periods` getroffen werden (z. B. Q2/Q3 oder Restzeiten innerhalb eines Datumsbereichs).
 4. In `periods` nur Abweichungen vom Fallback ablegen – also ausschließlich HT- und NT-Fenster. Niemals ST in `times` eintragen.
 5. Datumsbereiche und Zeitfenster dürfen sich nicht überschneiden.
