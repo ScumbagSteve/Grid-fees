@@ -1,0 +1,66 @@
+{
+  "netzbetreiber": "WEMAG Netz GmbH",
+  "jahre": {
+    "2026": {
+      "quelle": "https://www.wemag-netz.de/sites/default/files/2025-12/251208_wemag-netz-gmbh-preisblatt-netzentgelte-2026.pdf",
+      "tarifstufen": [
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 7.7
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.13
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "NT",
+          "netzentgelt_ct_kwh_netto": 1.95
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 7.7
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.13
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "NT",
+          "netzentgelt_ct_kwh_netto": 1.95
+        },
+        {
+          "datum_von": "01.04.",
+          "datum_bis": "30.09.",
+          "zeit_von": "00:00",
+          "zeit_bis": "24:00",
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.13
+        }
+      ]
+    }
+  }
+}

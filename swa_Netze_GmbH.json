@@ -1,0 +1,34 @@
+{
+  "netzbetreiber": "swa Netze GmbH",
+  "jahre": {
+    "2026": {
+      "quelle": "https://www.swa-netze.de/fileadmin/Downloadfiles/Strom/02_Netzzugang_und_Entgelte/04_Preisblaetter/Preisblatt_2026.pdf",
+      "tarifstufen": [
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.12.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 9.4
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.12.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 6.07
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.12.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "NT",
+          "netzentgelt_ct_kwh_netto": 2.43
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "netzbetreiber": "inetz GmbH",
+  "jahre": {
+    "2026": {
+      "quelle": "https://www.inetz.de/fileadmin/dokumente/02_Netzzugang/01_Netzentgelte/Strom/20251014_S_Preisblatt____14a_EnWG_v_2026.pdf",
+      "tarifstufen": [
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": "17:00",
+          "zeit_bis": "19:00",
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 7.56
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.99
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "NT",
+          "netzentgelt_ct_kwh_netto": 2.4
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": "17:00",
+          "zeit_bis": "19:00",
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 7.56
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.99
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "NT",
+          "netzentgelt_ct_kwh_netto": 2.4
+        }
+      ]
+    }
+  }
+}

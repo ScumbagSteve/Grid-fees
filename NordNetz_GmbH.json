@@ -1,0 +1,58 @@
+{
+  "netzbetreiber": "NordNetz GmbH",
+  "jahre": {
+    "2026": {
+      "quelle": "https://www.nordnetz.com/content/dam/revu-global/nordnetz/Dokumente/NordNetz/Netzinformationen/netzentgelte_strom/2026/nordnetz_finale_netzentgelte_strom_ab_20260101.pdf",
+      "tarifstufen": [
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 6.2
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.21
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": "00:00",
+          "zeit_bis": "04:00",
+          "tarif": "NT",
+          "netzentgelt_ct_kwh_netto": 0.42
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 6.2
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": null,
+          "zeit_bis": null,
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.21
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": "00:00",
+          "zeit_bis": "04:00",
+          "tarif": "NT",
+          "netzentgelt_ct_kwh_netto": 0.42
+        }
+      ]
+    }
+  }
+}
