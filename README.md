@@ -11,7 +11,6 @@ Erweitere jede Datei um das kommende Kalenderjahr (z. B. 2027), ohne bestehende 
 ### Verbindliche Dateistruktur (nicht abweichen)
 {
   "grid_operator": "<Name des Netzbetreibers>",
-  "currency": "EUR",
   "tariff_type": "DE-§14a Modul 3" | "Arbeitspreis-Rabatt",
   "value_unit": "ct/kWh" | "%",
   "years": {
