@@ -1,6 +1,5 @@
 {
   "grid_operator": "Thüga Energienetze GmbH",
-  "currency": "EUR",
   "years": {
     "2026": {
       "source": "https://www.thuega-netze.de/wp-content/uploads/ThuegaNETZE_Lieferanten_Strom_Netzentgelte_Preisblatt_01.01.2026-bis-31.12.2026.pdf",

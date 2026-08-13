@@ -1,6 +1,5 @@
 {
   "grid_operator": "Österreich (alle Netzbetreiber, Netzebene 7)",
-  "currency": "EUR",
   "tariff_type": "Arbeitspreis-Rabatt",
   "value_unit": "%",
   "years": {

@@ -1,6 +1,5 @@
 {
   "grid_operator": "Schleswig-Holstein Netz AG",
-  "currency": "EUR",
   "tariff_type": "DE-§14a Modul 3",
   "value_unit": "ct/kWh",
   "years": {
