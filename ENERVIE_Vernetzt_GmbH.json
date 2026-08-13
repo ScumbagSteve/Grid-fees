@@ -1,0 +1,33 @@
+{
+  "grid_operator": "ENERVIE Vernetzt GmbH",
+  "currency": "EUR",
+  "years": {
+    "2026": {
+      "source": "https://www.enervie-vernetzt.de/Portaldata/1/Resources/_02_downloads/strom/netzentgelte_/Preisblatt_Strom_2026_der_ENERVIE_Vernetzt_GmbH.pdf",
+      "fallback": {
+        "tariff": "ST",
+        "charge_per_kwh": 6.83
+      },
+      "periods": [
+        {
+          "date_from": "01.01.",
+          "date_to": "31.12.",
+          "times": [
+            {
+              "time_from": "00:00",
+              "time_to": "04:00",
+              "tariff": "NT",
+              "charge_per_kwh": 2.73
+            },
+            {
+              "time_from": "18:00",
+              "time_to": "21:00",
+              "tariff": "HT",
+              "charge_per_kwh": 9.66
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

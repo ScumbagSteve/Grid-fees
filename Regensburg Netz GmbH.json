@@ -1,12 +1,12 @@
 {
-  "grid_operator": "swa Netze GmbH",
+  "grid_operator": "Regensburg Netz GmbH",
   "currency": "EUR",
   "years": {
     "2026": {
-      "source": "https://www.swa-netze.de/fileadmin/Downloadfiles/Strom/02_Netzzugang_und_Entgelte/04_Preisblaetter/Preisblatt_2026.pdf",
+      "source": "https://www.regensburg-netz.de/fileadmin/Downloads/Fuer_Partner/Netzkunden_Lieferanten/Netzentgelte_Umlagen/2026/Preisblaetter_Gesamt_endgueltig_2026.pdf",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": 6.07
+        "charge_per_kwh": 5.05
       },
       "periods": [
         {
@@ -14,16 +14,16 @@
           "date_to": "31.03.",
           "times": [
             {
-              "time_from": "01:30",
+              "time_from": "02:15",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.43
+              "charge_per_kwh": 2.02
             },
             {
-              "time_from": "17:00",
-              "time_to": "19:00",
+              "time_from": "09:00",
+              "time_to": "20:30",
               "tariff": "HT",
-              "charge_per_kwh": 9.4
+              "charge_per_kwh": 5.31
             }
           ]
         },
@@ -32,16 +32,16 @@
           "date_to": "31.12.",
           "times": [
             {
-              "time_from": "01:30",
+              "time_from": "02:15",
               "time_to": "05:00",
               "tariff": "NT",
-              "charge_per_kwh": 2.43
+              "charge_per_kwh": 2.02
             },
             {
-              "time_from": "17:00",
-              "time_to": "19:00",
+              "time_from": "09:00",
+              "time_to": "20:30",
               "tariff": "HT",
-              "charge_per_kwh": 9.4
+              "charge_per_kwh": 5.31
             }
           ]
         }

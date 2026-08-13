@@ -1,0 +1,75 @@
+{
+  "grid_operator": "E.DIS Netz GmbH",
+  "currency": "EUR",
+  "years": {
+    "2026": {
+      "source": "https://www.e-dis-netz.de/content/dam/revu-global/e-dis-netz/dokumente/Preisblaetter_Netzentgelte_Strom_20260101.pdf",
+      "fallback": {
+        "tariff": "ST",
+        "charge_per_kwh": 5.47
+      },
+      "periods": [
+        {
+          "date_from": "01.01.",
+          "date_to": "31.03.",
+          "times": [
+            {
+              "time_from": "00:00",
+              "time_to": "05:00",
+              "tariff": "NT",
+              "charge_per_kwh": 0.55
+            },
+            {
+              "time_from": "10:15",
+              "time_to": "12:00",
+              "tariff": "HT",
+              "charge_per_kwh": 8.8
+            },
+            {
+              "time_from": "16:45",
+              "time_to": "20:15",
+              "tariff": "HT",
+              "charge_per_kwh": 8.8
+            },
+            {
+              "time_from": "23:30",
+              "time_to": "24:00",
+              "tariff": "NT",
+              "charge_per_kwh": 0.55
+            }
+          ]
+        },
+        {
+          "date_from": "01.10.",
+          "date_to": "31.12.",
+          "times": [
+            {
+              "time_from": "00:00",
+              "time_to": "05:00",
+              "tariff": "NT",
+              "charge_per_kwh": 0.55
+            },
+            {
+              "time_from": "10:15",
+              "time_to": "12:00",
+              "tariff": "HT",
+              "charge_per_kwh": 8.8
+            },
+            {
+              "time_from": "16:45",
+              "time_to": "20:15",
+              "tariff": "HT",
+              "charge_per_kwh": 8.8
+            },
+            {
+              "time_from": "23:30",
+              "time_to": "24:00",
+              "tariff": "NT",
+              "charge_per_kwh": 0.55
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

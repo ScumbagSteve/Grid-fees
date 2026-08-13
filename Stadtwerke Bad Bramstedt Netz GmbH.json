@@ -1,0 +1,33 @@
+{
+  "grid_operator": "Stadtwerke Bad Bramstedt Netz GmbH",
+  "currency": "EUR",
+  "years": {
+    "2026": {
+      "source": "https://badbramstedtnetz.netzveroeffentlichung.com/fileadmin/Stadtwerke_Bad_Bramstedt_Netz/Stromnetz/Netzzugang_und_Entgelte/Entgelte/00_SWBBn_NNE_e_SN_26_PB.pdf",
+      "fallback": {
+        "tariff": "ST",
+        "charge_per_kwh": 6.64
+      },
+      "periods": [
+        {
+          "date_from": "01.01.",
+          "date_to": "31.12.",
+          "times": [
+            {
+              "time_from": "00:00",
+              "time_to": "07:00",
+              "tariff": "NT",
+              "charge_per_kwh": 1.33
+            },
+            {
+              "time_from": "18:00",
+              "time_to": "22:00",
+              "tariff": "HT",
+              "charge_per_kwh": 9.82
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "grid_operator": "e-netz Südhessen AG",
+  "currency": "EUR",
+  "years": {
+    "2026": {
+      "source": "https://www.e-netz-suedhessen.de/fileadmin/download/preisblatt_strom.pdf",
+      "fallback": {
+        "tariff": "ST",
+        "charge_per_kwh": 5.63
+      },
+      "periods": [
+        {
+          "date_from": "01.01.",
+          "date_to": "31.03.",
+          "times": [
+            {
+              "time_from": "00:00",
+              "time_to": "06:00",
+              "tariff": "NT",
+              "charge_per_kwh": 1.53
+            },
+            {
+              "time_from": "18:00",
+              "time_to": "22:00",
+              "tariff": "HT",
+              "charge_per_kwh": 7.38
+            }
+          ]
+        },
+        {
+          "date_from": "01.10.",
+          "date_to": "31.12.",
+          "times": [
+            {
+              "time_from": "00:00",
+              "time_to": "06:00",
+              "tariff": "NT",
+              "charge_per_kwh": 1.53
+            },
+            {
+              "time_from": "18:00",
+              "time_to": "22:00",
+              "tariff": "HT",
+              "charge_per_kwh": 7.38
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

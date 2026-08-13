@@ -1,0 +1,33 @@
+{
+  "grid_operator": "Stadtwerke Elmshorn",
+  "currency": "EUR",
+  "years": {
+    "2026": {
+      "source": "https://www.stadtwerke-elmshorn.de/elmshornGips/Elmshorn/stadtwerke-elmshorn1.de/Privatkunden/Netze/Stromnetz/Stromnetz-Relaunch/Netzzugang-Netznutzungsentgelte/Stadtwerke-Elmshorn-Preisblatt-vorlaeufige-NNE-Strom-2026.pdf",
+      "fallback": {
+        "tariff": "ST",
+        "charge_per_kwh": 8.55
+      },
+      "periods": [
+        {
+          "date_from": "01.07.",
+          "date_to": "31.12.",
+          "times": [
+            {
+              "time_from": "01:00",
+              "time_to": "05:00",
+              "tariff": "NT",
+              "charge_per_kwh": 3.42
+            },
+            {
+              "time_from": "17:00",
+              "time_to": "19:30",
+              "tariff": "HT",
+              "charge_per_kwh": 12.1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

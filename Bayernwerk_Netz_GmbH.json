@@ -1,0 +1,51 @@
+{
+  "grid_operator": "Bayernwerk Netz GmbH",
+  "currency": "EUR",
+  "years": {
+    "2026": {
+      "source": "https://www.bayernwerk-netz.de/content/dam/revu-global/bayernwerk-netz/files/netz/netzzugang/netzentgeltestrom/bayernwerk-preisblatt-netzentgelte-2026.pdf",
+      "fallback": {
+        "tariff": "ST",
+        "charge_per_kwh": 4.72
+      },
+      "periods": [
+        {
+          "date_from": "01.04.",
+          "date_to": "30.06.",
+          "times": [
+            {
+              "time_from": "10:00",
+              "time_to": "15:00",
+              "tariff": "NT",
+              "charge_per_kwh": 0.47
+            },
+            {
+              "time_from": "17:00",
+              "time_to": "22:00",
+              "tariff": "HT",
+              "charge_per_kwh": 9.03
+            }
+          ]
+        },
+        {
+          "date_from": "01.07.",
+          "date_to": "30.09.",
+          "times": [
+            {
+              "time_from": "10:00",
+              "time_to": "15:00",
+              "tariff": "NT",
+              "charge_per_kwh": 0.47
+            },
+            {
+              "time_from": "17:00",
+              "time_to": "22:00",
+              "tariff": "HT",
+              "charge_per_kwh": 9.03
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
