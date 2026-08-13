@@ -7,48 +7,112 @@
         {
           "datum_von": "01.01.",
           "datum_bis": "31.03.",
-          "zeit_von": null,
-          "zeit_bis": null,
-          "tarif": "HT",
-          "netzentgelt_ct_kwh_netto": 7.7
+          "zeit_von": "00:00",
+          "zeit_bis": "06:00",
+          "tarif": "NT",
+          "netzentgelt_ct_kwh_netto": 1.95
         },
         {
           "datum_von": "01.01.",
           "datum_bis": "31.03.",
-          "zeit_von": null,
-          "zeit_bis": null,
+          "zeit_von": "06:00",
+          "zeit_bis": "07:00",
           "tarif": "ST",
           "netzentgelt_ct_kwh_netto": 5.13
         },
         {
           "datum_von": "01.01.",
           "datum_bis": "31.03.",
-          "zeit_von": null,
-          "zeit_bis": null,
+          "zeit_von": "07:00",
+          "zeit_bis": "11:00",
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 7.7
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": "11:00",
+          "zeit_bis": "17:00",
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.13
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": "17:00",
+          "zeit_bis": "20:00",
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 7.7
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": "20:00",
+          "zeit_bis": "21:00",
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.13
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.03.",
+          "zeit_von": "21:00",
+          "zeit_bis": "24:00",
           "tarif": "NT",
           "netzentgelt_ct_kwh_netto": 1.95
         },
         {
           "datum_von": "01.10.",
           "datum_bis": "31.12.",
-          "zeit_von": null,
-          "zeit_bis": null,
-          "tarif": "HT",
-          "netzentgelt_ct_kwh_netto": 7.7
+          "zeit_von": "00:00",
+          "zeit_bis": "06:00",
+          "tarif": "NT",
+          "netzentgelt_ct_kwh_netto": 1.95
         },
         {
           "datum_von": "01.10.",
           "datum_bis": "31.12.",
-          "zeit_von": null,
-          "zeit_bis": null,
+          "zeit_von": "06:00",
+          "zeit_bis": "07:00",
           "tarif": "ST",
           "netzentgelt_ct_kwh_netto": 5.13
         },
         {
           "datum_von": "01.10.",
           "datum_bis": "31.12.",
-          "zeit_von": null,
-          "zeit_bis": null,
+          "zeit_von": "07:00",
+          "zeit_bis": "11:00",
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 7.7
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": "11:00",
+          "zeit_bis": "17:00",
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.13
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": "17:00",
+          "zeit_bis": "20:00",
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 7.7
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": "20:00",
+          "zeit_bis": "21:00",
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 5.13
+        },
+        {
+          "datum_von": "01.10.",
+          "datum_bis": "31.12.",
+          "zeit_von": "21:00",
+          "zeit_bis": "24:00",
           "tarif": "NT",
           "netzentgelt_ct_kwh_netto": 1.95
         },

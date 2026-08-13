@@ -2,23 +2,15 @@
   "netzbetreiber": "Pfalzwerke Netz AG",
   "jahre": {
     "2026": {
-      "quelle": "https://www.pfalzwerke-netz.de/pfalzwerke-netz/downloads/unser-netz/Netzentgelte/2026/20251010_Preisblatt%20Pfalzwerke%20Netz%20AG%20indikativ%202026.pdf",
+      "quelle": "https://www.pfalzwerke-netz.de/pfalzwerke-netz/downloads/unser-netz/Netzentgelte/2026/20251211_Preisblatt_Pfalzwerke%20Netz%20AG_NN_2026.pdf",
       "tarifstufen": [
         {
           "datum_von": "01.01.",
           "datum_bis": "31.12.",
-          "zeit_von": "11:00",
-          "zeit_bis": "13:30",
-          "tarif": "HT",
-          "netzentgelt_ct_kwh_netto": 7.07
-        },
-        {
-          "datum_von": "01.01.",
-          "datum_bis": "31.12.",
-          "zeit_von": "18:00",
-          "zeit_bis": "21:00",
-          "tarif": "HT",
-          "netzentgelt_ct_kwh_netto": 7.07
+          "zeit_von": "00:00",
+          "zeit_bis": "01:00",
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 6.3
         },
         {
           "datum_von": "01.01.",
@@ -31,8 +23,40 @@
         {
           "datum_von": "01.01.",
           "datum_bis": "31.12.",
-          "zeit_von": null,
-          "zeit_bis": null,
+          "zeit_von": "05:00",
+          "zeit_bis": "11:00",
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 6.3
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.12.",
+          "zeit_von": "11:00",
+          "zeit_bis": "13:30",
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 7.07
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.12.",
+          "zeit_von": "13:30",
+          "zeit_bis": "18:00",
+          "tarif": "ST",
+          "netzentgelt_ct_kwh_netto": 6.3
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.12.",
+          "zeit_von": "18:00",
+          "zeit_bis": "21:00",
+          "tarif": "HT",
+          "netzentgelt_ct_kwh_netto": 7.07
+        },
+        {
+          "datum_von": "01.01.",
+          "datum_bis": "31.12.",
+          "zeit_von": "21:00",
+          "zeit_bis": "24:00",
           "tarif": "ST",
           "netzentgelt_ct_kwh_netto": 6.3
         }
