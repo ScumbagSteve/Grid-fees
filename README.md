@@ -9,16 +9,17 @@ Aufgabe:
 Erweitere jede Datei um das kommende Kalenderjahr (z. B. 2027), ohne bestehende Jahre zu verändern oder zu löschen.
 
 ### Verbindliche Dateistruktur (nicht abweichen)
-
 {
   "grid_operator": "<Name des Netzbetreibers>",
   "currency": "EUR",
+  "tariff_type": "DE-§14a Modul 3" | "Arbeitspreis-Rabatt",
+  "value_unit": "ct/kWh" | "%",
   "years": {
-    "<YYYY>": {
+    "": {
       "source": "<direkte URL zum offiziellen Preisblatt-PDF>",
       "fallback": {
         "tariff": "ST",
-        "charge_per_kwh": <netto ct/kWh>
+        "value": <number>
       },
       "periods": [
         {
@@ -29,7 +30,7 @@ Erweitere jede Datei um das kommende Kalenderjahr (z. B. 2027), ohne bestehende 
               "time_from": "HH:MM",
               "time_to": "HH:MM",
               "tariff": "HT" | "NT",
-              "charge_per_kwh": <netto ct/kWh>
+              "value": <number>
             }
           ]
         }
