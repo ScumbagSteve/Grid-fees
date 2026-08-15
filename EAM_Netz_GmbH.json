@@ -1,0 +1,41 @@
+{
+  "grid_operator": "EAM Netz GmbH",
+  "tariff_type": "DE-§14a Modul 3",
+  "value_unit": "ct/kWh",
+  "currency": "EUR",
+  "years": {
+    "2026": {
+      "source": "https://www.eam-netz.de/fileadmin/user_upload/Ueber_Uns/Netzinformation/Netzentgelte/strom/251215_Preisblatt_EAM_Netz_Strom_2026_-_final.pdf",
+      "fallback": {
+        "tariff": "ST",
+        "value": 5.48
+      },
+      "periods": [
+        {
+          "date_from": "01.01.",
+          "date_to": "31.12.",
+          "times": [
+            {
+              "time_from": "11:00",
+              "time_to": "15:00",
+              "tariff": "NT",
+              "value": 1.64
+            },
+            {
+              "time_from": "17:00",
+              "time_to": "22:00",
+              "tariff": "HT",
+              "value": 10.52
+            },
+            {
+              "time_from": "23:00",
+              "time_to": "06:00",
+              "tariff": "NT",
+              "value": 1.64
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
