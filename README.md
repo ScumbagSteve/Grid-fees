@@ -1,5 +1,6 @@
-# Aims to document all german §14a EnWG variable grid-fees
+# WORK IN PROGRESS: Aims to document all german §14a EnWG variable grid-fees
 Each grid operators fees are published in a dedicated file, for AI agents to (re-)scrape each year.
+Right now this is a demo to work as an example for evcc plug-in files.
 
 # Prompt
 
